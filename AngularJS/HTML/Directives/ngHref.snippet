@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>ngHref</Title>
+      <Author>Tyson Benson</Author>
+      <Description>Using Angular markup like in an href attribute makes the page open to a wrong URL, if the user clicks that link before angular has a chance to replace the with actual URL, the link will be broken and will most likely return a 404 error. The ngHref directive solves this problem.</Description>
+      <HelpUrl>http://docs.angularjs.org/api/ng.directive:ngHref</HelpUrl>
+      <Shortcut>ng-href</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>template</ID>
+          <ToolTip>{template} – any string which can contain {{}} markup.</ToolTip>
+          <Default>/{{binding}}</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="html"><![CDATA[ng-href="$template$"$end$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

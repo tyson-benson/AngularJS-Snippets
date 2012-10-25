@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <AlternativeShortcuts>
+        <Shortcut>ng-bind-html-unsafe</Shortcut>
+      </AlternativeShortcuts>
+      <Title>ngBindHtmlUnsafe</Title>
+      <Author>Tyson Benson</Author>
+      <Description>Creates a binding that will innerHTML the result of evaluating the expression into the current element. The innerHTML-ed content will not be sanitized!</Description>
+      <HelpUrl>http://docs.angularjs.org/api/ng.directive:ngBindHtmlUnsafe</HelpUrl>
+      <Shortcut>ng-bind-html</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>expression</ID>
+          <ToolTip>
+          </ToolTip>
+          <Default>expression</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="html"><![CDATA[ng-bind-html-unsafe="$expression$"$end$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

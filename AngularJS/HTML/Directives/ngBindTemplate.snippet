@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>ngBindTemplate</Title>
+      <Author>Tyson Benson</Author>
+      <Description>The ngBindTemplate directive specifies that the element text should be replaced with the template in ngBindTemplate. </Description>
+      <HelpUrl>http://docs.angularjs.org/api/ng.directive:ngBindTemplate</HelpUrl>
+      <Shortcut>ng-bind-template</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>string</ID>
+          <ToolTip>template of form {{ expression }} to eval</ToolTip>
+          <Default>{{salutation}} {{name}}!</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="html"><![CDATA[ng-bind-template="$string$"$end$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

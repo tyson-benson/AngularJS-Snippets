@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Keywords />
+      <Title>angularjs from cdn</Title>
+      <Author>Tyson Benson</Author>
+      <Description>Script tag importing base AngularJS file from CDN</Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>ngsa</Shortcut>
+    </Header>
+    <Snippet>
+      <References />
+      <Imports />
+      <Declarations>
+        <Literal Editable="true">
+          <ID>version</ID>
+          <ToolTip>
+          </ToolTip>
+          <Default>1.0.1</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>suffix</ID>
+          <ToolTip>
+          </ToolTip>
+          <Default>.min</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="html" Kind="" Delimiter="$"><![CDATA[<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/$version$/angular$suffix$.js"></script>
+$end$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

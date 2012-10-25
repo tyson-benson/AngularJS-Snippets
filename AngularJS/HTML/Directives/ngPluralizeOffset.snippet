@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>ngPluralizeOffset</Title>
+      <Author>Tyson Benson</Author>
+      <Description>ngPluralize is a directive that displays messages according to en-US localization rules. These rules are bundled with angular.js and the rules can be overridden (see Angular i18n dev guide). You configure ngPluralize directive by specifying the mappings between plural categories and the strings to be displayed.</Description>
+      <HelpUrl>http://docs.angularjs.org/api/ng.directive:ngPluralize</HelpUrl>
+      <Shortcut>ng-pluralize</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>offsetNumber</ID>
+          <ToolTip>offset(optional) – {number=} – Offset to deduct from the total number.</ToolTip>
+          <Default>2</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>countExpression</ID>
+          <ToolTip>count – {string|expression} – The variable to be bounded to.</ToolTip>
+          <Default>countExpression</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="html"><![CDATA[ng-pluralize
+    count="$countExpression$" offset="$offsetNumber$"
+    when="{'0': 'Nobody is viewing',
+           '1': '{{person1}} is viewing.',
+           '2': '{{person1}} and {{person2}} are viewing.',
+           'one': '{{person1}}, {{person2}} and one other person are viewing.',
+           'other': '{{person1}}, {{person2}} and {} other people are viewing.'}"$end$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

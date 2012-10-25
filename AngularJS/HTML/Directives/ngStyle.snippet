@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>ngStyle</Title>
+      <Author>Tyson Benson</Author>
+      <Description>The ngStyle directive allows you to set CSS style on an HTML element conditionally.
+
+</Description>
+      <HelpUrl>http://docs.angularjs.org/api/ng.directive:ngStyle</HelpUrl>
+      <Shortcut>ng-style</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>expression</ID>
+          <ToolTip>ngStyle – {expression} – Expression which evals to an object whose keys are CSS style names and values are corresponding values for those CSS keys.</ToolTip>
+          <Default>{ color: 'red' }</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="html"><![CDATA[ng-style="$expression$"$end$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>ngInit</Title>
+      <Author>Tyson Benson</Author>
+      <Description>The ngInit directive specifies initialization tasks to be executed before the template enters execution mode during bootstrap.
+
+</Description>
+      <HelpUrl>http://docs.angularjs.org/api/ng.directive:ngInit</HelpUrl>
+      <Shortcut>ng-init</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>expression</ID>
+          <ToolTip>Angular expression that will be evaluated.</ToolTip>
+          <Default>greeting='Hello'; person='World'</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="html"><![CDATA[ng-init="$expression$"$end$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>ngClassOdd</Title>
+      <Author>Tyson Benson</Author>
+      <Description>The ngClassOdd and ngClassEven directives work exactly as ngClass, except it works in conjunction with ngRepeat and takes affect only on odd (even) rows.
+
+This directive can be applied only within a scope of an ngRepeat.</Description>
+      <HelpUrl>http://docs.angularjs.org/api/ng.directive:ngClassOdd</HelpUrl>
+      <Shortcut>ng-class-odd</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>expression</ID>
+          <ToolTip>Expression to eval. The result of the evaluation can be a string representing space delimited class names, an array, or a map of class names to boolean values.</ToolTip>
+          <Default>expression</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="html"><![CDATA[ng-class-odd="$expression$"$end$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

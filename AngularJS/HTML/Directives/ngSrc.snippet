@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>ngSrc</Title>
+      <Author>Tyson Benson</Author>
+      <Description>Using Angular markup like {{hash}} in a src attribute doesn't work right: The browser will fetch from the URL with the literal text {{hash}} until Angular replaces the expression inside {{hash}}. The ngSrc directive solves this problem.</Description>
+      <HelpUrl>http://docs.angularjs.org/api/ng.directive:ngSrc</HelpUrl>
+      <Shortcut>ng-src</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>expression</ID>
+          <ToolTip>ngSrc – {template} – any string which can contain {{}} markup.</ToolTip>
+          <Default>expression</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="html"><![CDATA[ng-src="$expression$"$end$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

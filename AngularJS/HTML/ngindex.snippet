@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Keywords />
+      <Title>ngindex</Title>
+      <Author>Tyson Benson</Author>
+      <Description>Simple way of bootstraping angular app for prototyping purposes</Description>
+      <HelpUrl>http://docs.angularjs.org/guide/bootstrap</HelpUrl>
+      <Shortcut>ngindex</Shortcut>
+    </Header>
+    <Snippet>
+      <References />
+      <Imports />
+      <Declarations>
+        <Literal Editable="true">
+          <ID>version</ID>
+          <ToolTip>
+          </ToolTip>
+          <Default>1.0.1</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>moduleName</ID>
+          <ToolTip>
+          </ToolTip>
+          <Default>app</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="html" Kind="" Delimiter="$"><![CDATA[<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Angular QuickStart</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/$version$/angular.js"></script>
+    </head>
+    <body ng-app="$moduleName$">
+        $end$
+    </body>
+</html>]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

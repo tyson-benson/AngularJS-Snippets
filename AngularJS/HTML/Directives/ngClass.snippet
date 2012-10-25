@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>ngClass</Title>
+      <Author>Tyson Benson</Author>
+      <Description>The ngClass allows you to set CSS class on HTML element dynamically by databinding an expression that represents all classes to be added.
+
+</Description>
+      <HelpUrl>http://docs.angularjs.org/api/ng.directive:ngClass</HelpUrl>
+      <Shortcut>ng-class</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>expression</ID>
+          <ToolTip>Expression to eval. The result of the evaluation can be a string representing space delimited class names, an array, or a map of class names to boolean values.</ToolTip>
+          <Default>expression</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="html"><![CDATA[ng-class="$expression$"$end$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>ngChange</Title>
+      <Author>Tyson Benson</Author>
+      <Description>Evaluate given expression when user changes the input. The expression is not evaluated when the value change is coming from the model. Note, this directive requires ngModel to be present.</Description>
+      <HelpUrl>http://docs.angularjs.org/api/ng.directive:ngChange</HelpUrl>
+      <Shortcut>ng-change</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>expression</ID>
+          <ToolTip>
+          </ToolTip>
+          <Default>expression</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="html"><![CDATA[ng-change="$expression$"$end$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

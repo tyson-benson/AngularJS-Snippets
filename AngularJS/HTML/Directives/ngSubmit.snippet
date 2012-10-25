@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>ngSubmit</Title>
+      <Author>Tyson Benson</Author>
+      <Description>Enables binding angular expressions to onsubmit events.
+
+Additionally it prevents the default action (which for form means sending the request to the server and reloading the current page).
+
+</Description>
+      <HelpUrl>http://docs.angularjs.org/api/ng.directive:ngSubmit</HelpUrl>
+      <Shortcut>ng-submit</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>expression</ID>
+          <ToolTip>ngSubmit – {expression} – Expression to eval.</ToolTip>
+          <Default>expression</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="html"><![CDATA[ng-submit="$expression$"$end$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>ngc</Title>
+      <Author>Tyson Benson</Author>
+      <Description>Define a new Angular Controller.</Description>
+      <HelpUrl>http://docs.angularjs.org/api/angular.Module#controller</HelpUrl>
+      <Shortcut>ngc</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>name</ID>
+          <ToolTip>The name of your controller</ToolTip>
+          <Default>some</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>dependencies</ID>
+          <ToolTip>List of dependencies your controller needs angular to inject</ToolTip>
+          <Default>dependencies</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>scope</ID>
+          <ToolTip>The controller $scope</ToolTip>
+          <Default>$scope</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="javascript"><![CDATA[function $name$Ctrl($scope$, $dependencies$) {
+    $end$
+};]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

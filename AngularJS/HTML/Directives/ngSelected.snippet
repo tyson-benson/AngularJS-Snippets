@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>ngSelected</Title>
+      <Author>Tyson Benson</Author>
+      <Description>The HTML specs do not require browsers to preserve the special attributes such as selected. (The presence of them means true and absence means false) This prevents the angular compiler from correctly retrieving the binding expression. To solve this problem, we introduced the ngSelected directive.
+
+</Description>
+      <HelpUrl>http://docs.angularjs.org/api/ng.directive:ngSelected</HelpUrl>
+      <Shortcut>ng-selected</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>expression</ID>
+          <ToolTip>expression – {string} – Angular expression that will be evaluated.</ToolTip>
+          <Default>expression</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="html"><![CDATA[ng-selected="$expression$"$end$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

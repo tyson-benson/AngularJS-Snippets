@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>ngInclude</Title>
+      <Author>Tyson Benson</Author>
+      <Description>Fetches, compiles and includes an external HTML fragment.
+
+</Description>
+      <HelpUrl>http://docs.angularjs.org/api/ng.directive:ngInclude</HelpUrl>
+      <Shortcut>ng-include</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>templateUrl</ID>
+          <ToolTip>ngInclude|src – {string} – angular expression evaluating to URL. If the source is a string constant, make sure you wrap it in quotes, e.g. src="'myPartialTemplate.html'".</ToolTip>
+          <Default>templateUrl.html</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>onloadExpression</ID>
+          <ToolTip>onload(optional) – {string=} – Expression to evaluate when a new partial is loaded.</ToolTip>
+          <Default>onloadExpression</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>autoscrollExpression</ID>
+          <ToolTip>autoscroll(optional) – {string=} – Whether ngInclude should call $anchorScroll to scroll the viewport after the content is loaded.</ToolTip>
+          <Default>autoscrollExpression</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="html"><![CDATA[ng-include="$templateUrl$" onload="$onloadExpression$" autoscroll="$autoscrollExpression$"$end$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
