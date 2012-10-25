@@ -11,11 +11,11 @@ These snippets have been tested in Visual Studio 2012, but I expect them to work
 
 ## Download
 
-[Download v1.0](https://github.com/tysonbenson/AngularJS-Snippets/zipball/master) (.zip)
+[Download v1.0](https://github.com/tyson-benson/AngularJS-Snippets/zipball/master) (.zip)
 
 ## Installation
 
-1. Download the **AngularJS Snippets** folder and all of its contents from this respository here: https://github.com/tysonbenson/AngularJS-Snippets/zipball/master
+1. Download the **AngularJS Snippets** folder and all of its contents from this respository here: [https://github.com/tyson-benson/AngularJS-Snippets/zipball/master](https://github.com/tyson-benson/AngularJS-Snippets/zipball/master "https://github.com/tyson-benson/AngularJS-Snippets/zipball/master")
 2. Extract the zip and drop the **AngularJS Snippets** folder into the **Documents** > **Visual Studio 2012** > **Code Snippets** folder on your computer.
 3. In Visual Studio, navigate to **Tools** > **Code Snippet Manager**.
 4. Select language **HTML** from the language dropdown menu.
@@ -26,13 +26,13 @@ These snippets have been tested in Visual Studio 2012, but I expect them to work
 9. Repeat steps 5-7 for the "Documents/Visual Studio 2012/Code Snippets/AngularJS-Snippets" folder.
 10. Click **OK** to exit the Code Snippet Manager.
 11. Restart Visual Studio.
-12. Start [using the code snippets](https://github.com/tysonbenson/AngularJS-Snippets/wiki/Using-Code-Snippets).
+12. Start [using the code snippets](https://github.com/tyson-benson/AngularJS-Snippets/wiki/Using-Code-Snippets).
 
 The instructions above are adapted from xxkylexx's [Visual-Studio-jQuery-Code-Snippets](https://github.com/xxkylexx/Visual-Studio-jQuery-Code-Snippets) project.
 
 ## Snippet Listing
 
-There are about 90 code snippets for JavaScript, AngularJS and Jasmine included. You can view a listing of all of these snippets on the project wiki here: https://github.com/tysonbenson/AngularJS-Snippets/wiki/Snippet-Listing
+There are about 90 code snippets for JavaScript, AngularJS and Jasmine included. You can view a listing of all of these snippets on the project wiki here: https://github.com/tyson-benson/AngularJS-Snippets/wiki/Snippet-Listing
 
 ## TODO
 
