@@ -32,8 +32,16 @@
           <Function>
           </Function>
         </Literal>
+        <Literal Editable="true">
+          <ID>module</ID>
+          <ToolTip>
+          </ToolTip>
+          <Default>app</Default>
+          <Function>
+          </Function>
+        </Literal>
       </Declarations>
-      <Code Language="javascript" Kind="" Delimiter="$"><![CDATA[service('$name$', function($dependencies$) {
+      <Code Language="javascript" Kind="" Delimiter="$"><![CDATA[$module$.service('$name$', function($dependencies$) {
     $end$
 });]]></Code>
     </Snippet>

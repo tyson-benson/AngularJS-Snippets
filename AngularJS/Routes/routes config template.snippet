@@ -35,17 +35,38 @@
           <Function>
           </Function>
         </Literal>
+        <Literal Editable="false">
+          <ID>routeProvider</ID>
+          <ToolTip>routeProvider</ToolTip>
+          <Default>$routeProvider</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="false">
+          <ID>locationProvider</ID>
+          <ToolTip>locationProvider</ToolTip>
+          <Default>$locationProvider</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>module</ID>
+          <ToolTip>module</ToolTip>
+          <Default>app</Default>
+          <Function>
+          </Function>
+        </Literal>
       </Declarations>
-      <Code Language="javascript"><![CDATA[config(function ($routeProvider, $locationProvider) {
+      <Code Language="javascript"><![CDATA[$module$.config(function ($routeProvider$, $locationProvider$) {
 
-        $routeProvider.
+        $routeProvider$.
             when('/$homeUrl$', {
                 templateUrl: '/$homeTemplate$',
                 controller: '$homeController$Ctrl'
             }).
             otherwise({ redirectTo: '/$homeUrl$' });
 
-        $locationProvider.html5Mode(true);
+        $locationProvider$.html5Mode(true);
 
 });
 $end$]]></Code>

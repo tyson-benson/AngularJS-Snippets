@@ -23,21 +23,14 @@
         <Literal Editable="true">
           <ID>dependencies</ID>
           <ToolTip>List of dependencies your controller needs angular to inject</ToolTip>
-          <Default>dependencies</Default>
-          <Function>
-          </Function>
-        </Literal>
-        <Literal Editable="true">
-          <ID>scope</ID>
-          <ToolTip>The controller $scope</ToolTip>
           <Default>$scope</Default>
           <Function>
           </Function>
         </Literal>
       </Declarations>
-      <Code Language="javascript"><![CDATA[function $name$Ctrl($scope$, $dependencies$) {
+      <Code Language="javascript"><![CDATA[function $name$Ctrl($dependencies$) {
     $end$
-};]]></Code>
+}]]></Code>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>
